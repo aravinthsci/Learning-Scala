@@ -222,7 +222,7 @@ object LearningScala2 extends App{
       case d if d._1 == "Glazed Donut" => println(s"Donut type = ${d._1}, price = ${d._3}")
       case _ => None
     }
-  }
+  } }
 
    //How to use Option and Some - a basic example
 
@@ -255,14 +255,6 @@ object LearningScala2 extends App{
     println("\nStep 3: Declare a variable of type AnyVal")
     val donutPrice: AnyVal = 2.50
     println(s"donutPrice of type AnyVal = $donutPrice")
-
-    
-
-  }
-
-
-
-
 
 
 }
